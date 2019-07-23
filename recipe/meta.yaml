@@ -31,7 +31,7 @@ test:
 about:
   home: https://www.gnu.org/software/libtasn1/
   license: GPL-3.0
-  license_file: COPYING
+  license_file: LICENSE
   summary: 'Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages'
   description: |
     The Libtasn1 library provides Abstract Syntax Notation One
