@@ -1,6 +1,6 @@
 {% set name = "libtasn1" %}
-{% set version = "4.13" %}
-{% set sha256 = "7e528e8c317ddd156230c4e31d082cd13e7ddeb7a54824be82632209550c8cca" %}
+{% set version = "4.14" %}
+{% set sha256 = "9e604ba5c5c8ea403487695c2e407405820d98540d9de884d6e844f9a9c5ba08" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1002
+  number: 0
   # seems Windows with MSVC not currently supported
   skip: True  # [win]
 
@@ -31,7 +31,7 @@ test:
 about:
   home: https://www.gnu.org/software/libtasn1/
   license: GPL-3.0
-  license_file: COPYING
+  license_file: LICENSE
   summary: 'Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages'
   description: |
     The Libtasn1 library provides Abstract Syntax Notation One
