@@ -10,7 +10,7 @@ source:
   sha256: 4365c154953563d64c67a024b607d1ee75c6db76e0d0f65709ea80a334cd1898
 
 build:
-  number: 0
+  number: 1
   # seems Windows with MSVC not currently supported
   skip: true  # [win]
   run_exports:
@@ -20,6 +20,7 @@ requirements:
   build:
     - {{ compiler('c') }}
     - make
+    - gnuconfig  # [unix]
   host:
   run:
 
