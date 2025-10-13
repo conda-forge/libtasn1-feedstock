@@ -10,7 +10,7 @@ source:
   sha256: 92e0e3bd4c02d4aeee76036b2ddd83f0c732ba4cda5cb71d583272b23587a76c
 
 build:
-  number: 0
+  number: 1
   # seems Windows with MSVC not currently supported
   skip: true  # [win]
   run_exports:
@@ -31,7 +31,7 @@ test:
 
 about:
   home: https://www.gnu.org/software/libtasn1/
-  license: GPL-3.0-or-later
+  license: LGPL-2.1-or-later
   license_file: COPYING
   summary: Libtasn1 is the ASN.1 library used by GnuTLS, p11-kit and some other packages
   description: |
