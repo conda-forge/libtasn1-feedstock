@@ -10,7 +10,7 @@ source:
   sha256: 1d8a444a223cc5464240777346e125de51d8e6abf0b8bac742ac84609167dc87
 
 build:
-  number: 0
+  number: 1
   # seems Windows with MSVC not currently supported
   skip: true  # [win]
   run_exports:
